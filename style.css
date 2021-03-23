@@ -1,0 +1,550 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Shippori Mincho B1', serif;
+}
+.card-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.headerPage
+{margin-top: 500px;
+    width: 100%;
+    text-align: center;
+}
+.navbar>.container>.navbar-nav>.logo
+{ 
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: center;
+}
+.navbar-nav-mystyle
+{ font-size: 130%;
+flex-direction: column;
+-ms-flex-direction: column;
+flex-direction: column;
+padding-left: 0;
+margin-bottom: 0;
+list-style: none;
+flex-grow: 1;
+text-align: center;
+align-items: center;
+margin-left: 0px;
+margin-right: 0px;
+padding-left: 0px;
+padding-right: 0px;
+width: 100%;
+}
+.logo
+{ 
+    justify-content: center;
+    text-align: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 2vh;
+    margin-left: -5%;
+}
+.lo{
+    height: 10vh;
+}
+
+.left
+{  display: flex;
+    justify-content: flex-start;
+}
+.right
+{  display: flex;
+    justify-content: flex-end;
+}
+.container-without-margin
+{   
+    line-height: 3.5%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.padding-class
+{   color:rgb(65, 65, 65);
+    padding-left: 2%;
+    padding-right: 2%;
+    transform: translateX(+10px);
+    display: flex;
+    justify-content: space-around;
+}
+.herofoto
+{display: block;
+    position: relative;
+
+}
+.my-style
+{ justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+.navbar-nav-mystyle:first-child
+{margin-left: -3%;
+}
+.navbar-nav-mystyle:last-child
+{margin-right: -1%;
+}
+
+.dropdown-item:hover
+{font-size: 101%;
+    background: transparent !important;
+}
+.card-title 
+{   display: flex;
+    align-self: center;
+    font-size: 1.9rem;
+    font-weight: bolder;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+.card-text
+{   display: flex;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    justify-content: flex-start;
+    margin-top: 2px;
+}
+#artykul
+{
+    display:flex;
+}
+.kont
+{   display: block;
+    position: relative;
+}
+.blok
+{   
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 140px;
+    background-color: antiquewhite;
+    border-radius:  2%; 
+    margin-left: 10%;
+    transform: translateY(-45px);
+}
+.doc
+{   display: flex;
+    font-size: 1.2rem;
+    margin-left: 15%;
+    transform: translateY(1px);
+    font-weight: bold;
+    padding-top: 5px;
+
+}
+.inf
+{   display: flex;
+    justify-self: flex-start;
+    align-self:center;
+    font-size: 0.8rem;
+    margin-left: 15%;
+    transform: translateY(1px);
+    font-weight: bold;
+    padding-top: 1px;
+}
+.bioAll
+{
+    margin: 6rem 1rem ; /* dlaczego tutaj rem zadziałało*/
+}
+.bio
+{   display: flex;
+    color: dimgray;
+    justify-self: center;
+    align-self:center;
+    margin: 10px 30px ;
+    transform: translateY(10px);
+}
+.line 
+{ position: absolute; height: 1px; width: 250px;            /* jest problem z linią przechodzi ona przez kropke*/
+background-color: black; 
+transform: translateX(-246px) translateY(+2px);
+ } 
+.circle1 
+{ display: flex; 
+position: absolute; 
+ background:transparent; 
+ width: 40px; 
+ height: 40px;
+ border-radius: 50%;
+border:1px solid black;
+top: calc(50% - 40px/2); 
+left: calc(50% - 40px/2); 
+} 
+.circle2
+{  
+display: flex; 
+position: absolute;
+background:transparent; 
+width: 20px; 
+height: 20px; 
+border-radius: 50%; 
+ border: 1px solid black; 
+top: calc(50% - 20px/2); 
+left: calc(50% - 20px/2);
+} 
+.circle3 
+{   
+display: flex;
+position: absolute; 
+background:black;
+ width: 5px;
+height: 5px; 
+border-radius: 50%; 
+border: 1px solid black; 
+top: calc(50% - 5px/2); 
+left: calc(50% - 5px/2);
+}
+.inerCir
+{  display: flex;
+ position: relative;
+ transform:  translateX(248px) translateY(-46px);    
+}
+.igla
+{
+width: 280px;
+display: flex;
+margin-left: 20px;
+}
+.wszystkie
+{
+    display: flex;
+    justify-content: center;
+}
+.inCir1
+{
+    display: flex;
+    position: absolute; 
+    background:transparent;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 1px solid black;
+    transform: translateY(-50%)  translateX(20px)
+}
+.inCir2
+{
+    display: flex;
+    position: absolute; 
+    background:transparent;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    top: calc(50% - 10rem/2);
+    left: calc(50% - 10rem/2);
+}
+.inCir3
+{ display: flex;
+    position: absolute; 
+    background:transparent;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    top: calc(50% - 5rem/2);
+    left: calc(50% - 5rem/2);
+}
+.dot
+{
+    display: flex;
+    position: absolute; 
+    background:black;
+    width: 1rem;;
+    height: 1rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    top: calc(50% - 1rem/2);
+    left: calc(50% - 1rem/2);
+}
+.nextElement
+{
+    display: flex;
+    justify-content: flex-end ;
+    position: relative;
+    padding-left: 78px;
+}
+.blok2
+{   display: flex;
+    width: 90px;
+    height: 90px;
+    background-color: antiquewhite ;
+    transform: translateX(-115px);
+}
+
+.aku
+{   position: absolute;
+    margin-left: 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    transform: translateX(-50px);
+}
+.akuInf
+{   display: flex;
+    color: rgba(49, 49, 49, 0.829);
+    justify-self: center;
+    align-self:center;
+    margin: 10px 30px ;
+    transform: translateY(1px);
+    text-align: inherit;
+}
+.akuinfAll
+{
+    margin:5rem 1rem; 
+
+}
+
+
+@media(max-width: 700px)
+{
+    .nextElement
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-left: 0px;
+    }
+}
+@media(max-width: 700px)
+{
+    .nextElement
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-left: 0px;
+    }
+}
+@media (min-width: 768px)
+{
+    .inCir1
+{
+        display: flex;
+        position: absolute; 
+        background:transparent;
+        display: flex;
+        position: absolute;
+        background: transparent;
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        border: 1px solid black;
+        transform: translateY(-822px) translateX(+200px);;
+
+}
+.igla
+{
+    display: flex;
+    width: 400px;
+    height: 600px;
+    justify-content: flex-start;
+    transform: translateY(-623px) translateX(+179px);
+}
+.inCir2
+{
+    display: flex;
+    position: absolute; 
+    background:transparent;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    top: calc(50% - 10rem/2);
+    left: calc(50% - 10rem/2);
+}
+.inCir3
+{ display: flex;
+    position: absolute; 
+    background:transparent;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    top: calc(50% - 5rem/2);
+    left: calc(50% - 5rem/2);
+
+}
+.dot
+{
+    display: flex;
+    position: absolute; 
+    background:black;
+    width: 1rem;;
+    height: 1rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    top: calc(50% - 1rem/2);
+    left: calc(50% - 1rem/2);
+}
+    .akuInf
+{   display: flex;
+    align-self: flex-end; 
+    width: 50%;
+}
+.aku{
+    font-size: 2rem;
+    font-weight: bolder;
+    transform: translateX(-10px)
+}
+.akuinfAll
+{   display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    transform: translateY(-60px);
+    font-size: 150%;
+
+}
+    .blok2
+{   display: flex;
+    width: 150px;
+    height: 150px;
+    transform: translateX(-36px);
+   
+}
+    .card-title 
+{   display: flex;
+    text-align: center;
+    font-size: 8.5rem;
+    font-weight: bolder;
+    justify-content: center;
+    margin-top: 120px;
+}
+.card-text
+{   display: flex;
+    text-align: center;
+    font-size: 3.7rem;
+    font-weight: bolder;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.doc
+{   display: flex;
+    font-size: 2rem;
+    margin-left: 13%;
+    transform: translateY(25px);
+    font-weight: bold;
+    padding-top: 5px;
+
+}
+.inerCir {
+    display: flex;
+    position: relative;
+    transform: translateX(570px) translateY(-46px);
+}
+.inf
+{   display: flex;
+    justify-self: flex-start;
+    align-self:center;
+    font-size: 1.5rem;
+    margin-left: 13%;
+    transform: translateY(20px);
+    font-weight: bold;
+    padding-top: 1px;
+}
+ .nextElement
+    {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+        margin-left: 30%;
+    }
+    .inerCir>.line
+    {  display: flex;
+        width: 200%;
+        size: 200%;
+     position: relative;
+     transform:   translateX(370px) translateY(-59px);    
+    }
+.blok
+{   
+    display: flex;
+    position: absolute;
+    width: 250px;
+    height: 320px;
+    background-color: antiquewhite;
+    border-radius:  2%; 
+    margin-left: 10%;
+    transform: translateY(-65px);
+}
+.bioAll
+{   display:block;
+    width: 80%;
+    position: relative;
+    color: dimgray;
+    font-size: 150%;
+    margin: 70px 0px;; /* dlaczego tutaj rem zadziałało*/
+}
+
+.bio 
+{
+    display: flex;
+    color: dimgray;
+    align-self: center;
+    justify-content: flex-start!important;
+    padding: 10px;
+    margin-top: 15px;
+    width: 60%;
+    align-items: center;
+    margin-left: 35%;
+
+}
+.line 
+{    position: absolute;
+    height: 1px;
+    width: 600px;
+    background-color: black;
+    transform: translateX(-600px) translateY(+1px);
+} 
+.circle1 
+{ display: flex; 
+position: absolute; 
+ background:transparent; 
+ width: 70px; 
+ height: 70px;
+ border-radius: 50%;
+border:1px solid black;
+top: calc(50% - 70px/2); 
+left: calc(50% - 70px/2);
+left: 50.5%; 
+transform:  translateY(-28px)
+} 
+.circle2
+{  
+display: flex; 
+position: absolute;
+background:transparent; 
+width: 30px; 
+height: 30px; 
+border-radius: 50%; 
+ border: 1px solid black; 
+top: calc(50% - 30px/2); 
+left: calc(50% - 30px/2);
+} 
+.circle3 
+{   
+display: flex;
+position: absolute; 
+background:black; 
+width: 10px;
+height: 10px; 
+border-radius: 50%; 
+border: 1px solid black; 
+top: calc(50% - 10px/2); 
+left: calc(50% - 10px/2);
+}
+}
