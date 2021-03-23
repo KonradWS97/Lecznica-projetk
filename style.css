@@ -341,7 +341,7 @@ margin-left: 20px;
         height: 400px;
         border-radius: 50%;
         border: 1px solid black;
-        transform: translateY(-822px) translateX(+200px);;
+        transform: translateY(-904px) translateX(+100px);
 
 }
 .igla
@@ -350,7 +350,7 @@ margin-left: 20px;
     width: 400px;
     height: 600px;
     justify-content: flex-start;
-    transform: translateY(-623px) translateX(+179px);
+    transform:translateY(-704px) translateX(+79px);
 }
 .inCir2
 {
@@ -406,6 +406,7 @@ margin-left: 20px;
     align-items: flex-start;
     transform: translateY(-60px);
     font-size: 150%;
+    margin-left: 22rem;
 
 }
     .blok2
